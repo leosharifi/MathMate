@@ -3,7 +3,10 @@
 
 # MathMate - Modern Calculator
 
-## Overview
+## 🚧 Project Status: In Progress 🚧
+This project is still under development. Some features may not be fully implemented, and improvements are continuously being made. Stay tuned for updates!
+
+## Description
 MathMate is a sleek and intuitive calculator built using HTML, CSS, and JavaScript. Designed for efficiency, it delivers a smooth user experience with a clean UI and seamless functionality.
 
 ## Features
