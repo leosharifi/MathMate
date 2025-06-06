@@ -14,12 +14,12 @@ body {
         background: rgb(198, 188, 188);  
             header {
                 margin: 0 5px;
-                background: rgb(247, 245, 245);
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                padding: 1em 3em;
+                height: 3em;
                 font-size: 20px;
+                position: sticky;
                 i {
                     padding: 10px;
                     transition: background 3s;
@@ -32,19 +32,61 @@ body {
                     
                 }
             }
-            section {
-                padding: 10px;
-                height: 250px; 
+
+            /*The result input style*/
+            section.resultInput {
+                height: 130px; 
                 border-radius: 20px; 
-                background: rgb(206, 169, 169); 
-                margin: 0 5px;   
+                margin: 0 5px;  
+                margin-top: 1em;
+                cursor: text;
             }
             main {
                 display: block; 
-                height: 600px; 
-                background: rgb(153, 150, 150);
+                height: 523px; 
                 border-radius: 10px; 
                 margin: 0 5px;
+                table {
+                    width: 100%;
+                    /* height: 100vh;Change here */
+                    border-spacing: 20px;
+                    thead {
+                        border: 1px solid black;
+                        
+                        th {
+                            
+                            /* border: 1px solid black; */
+                            /* height: 20px; */
+                            /* padding: 1em; */
+                            cursor: pointer;
+                            padding: 30px;
+                            border-radius: 5px;
+                            border-spacing: 2px;
+                            background:rgb(220, 209, 209);
+                        }
+                        th:hover {
+                            background: rgb(209, 203, 203);
+                        }
+                    }
+                    tbody {
+                        /* width: 100%; */
+                        /* border: 1px solid black; */
+                        /* height: 10px; */
+
+                        td {
+                            cursor: pointer;
+                            padding: 30px;
+                            border-radius: 5px;
+                            border-spacing: 2px;
+                            background:rgb(220, 209, 209);
+                            text-align: center;
+                            
+                        }
+                        td:hover {
+                             background: rgb(209, 203, 203);
+                        }
+                    }
+                }
             }
     }
     
