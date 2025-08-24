@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="SiteLog/FullLogo.png">
-    
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">   
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>MateMate</title>
     <link rel="stylesheet" href="style.css">
@@ -18,48 +22,39 @@
 
         </header>
         <section class="resultInput">
-            
+            <h1>Sum Results:-</h1>
         </section>
-        <main>
-            <table>
-                <thead>
-                    <tr>
-                        <th>X</th>
-                        <th>C</th>
-                        <th>/</th>
-                        <th>*</th>
-                    </tr>
-                   
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>+</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>%</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>.</td>
-                        <td>0</td>
-                        <td>00</td>
-                        <td>=</td>
-                    </tr>
-                    
-                </tbody>
-            </table>
+        <main class="buttons">
+            <!-- <div> -->
+                <button type="button" data-action="delete" data-value="back-space">&#x232B;</button>
+                <button type="button" data-action="delete" data-value="clean">C</button>
+                <button type="button" data-action="division" data-value="divide">/</button>
+                <button type="button" data-action="multiplication" data-value="multiply">*</button>
+            <!-- </div> -->
+            <!-- <div> -->
+                <button type="button" data-value="7">7</button>
+                <button type="button" data-value="8">8</button>
+                <button type="button" data-value="9">9</button>
+                <button type="button" data-action="subtraction" data-value="subtract">-</button>
+            <!-- </div> -->
+            <!-- <div> -->
+                <button type="button" data-value="4">4</button>
+                <button type="button" data-value="5">5</button>
+                <button type="button" data-value="6">6</button>
+                <button class="add" type="button" data-action="addition" data-value="add">+</button>
+            <!-- </div> -->
+            <!-- <div> -->
+                <button type="button" data-value="1">1</button>
+                <button type="button" data-value="2">2</button>
+                <button type="button" data-value="3">3</button>
+            <!-- </div> -->
+
+            <!-- <div> -->
+                <button type="button" data-value="0">0</button>
+                <button type="button" data-value="00">00</button>
+                <button type="button" data-action="decimal" data-value="decimal">.</button>
+                <button type="button" data-action="equals" data-value="equals">=</button>
+            <!-- </div> -->
 
         </main>
     </main>
